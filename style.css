@@ -75,7 +75,17 @@ nav li a:hover{
 }
 .banner3{
     height: 100vh;
-    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('cursos1.png');
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+
+}
+.banner4{
+    height: 100vh;
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('vestibular.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -92,6 +102,11 @@ nav li a:hover{
 .texto .sub_titulo{
     color: #fff;
     font-size: 58px;
+    font-weight: 600;
+}
+.texto .sub_titulo1{
+    color: #be0909a1;
+    font-size: 38px;
     font-weight: 600;
 }
 .texto .botoes{
